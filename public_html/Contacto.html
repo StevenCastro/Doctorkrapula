@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="shorcut icon" href="./images./icono.jpg">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+		<meta charset="utf-8">
+		<title>Doctor Krapula</title>
+		<table>
+			<thead></thead>
+			<tbody>
+				<br><tr>
+					<td><h1>Contacto<br/>_________________________</h1></td>
+				</br></tr>
+			</tbody>
+		</table>
+	</head>
+	<body>
+		<p>Si tienes alguna duda o critica, por favor llena el formulario y escribenos. xD </p>
+		<p>Apoya al Rock Colombiano !!! =D </p>
+		<form id = "variable">
+			<img id ="dk" src= "./images./dk.jpg" height="700px" width="700px"/>
+			User Name:<br><br>
+			<input type="text" name="Username" required/>
+			<br>
+			<br>Password:<br><br>
+			<input type="password" name="psw" placeholder="Password" required/>
+			<br><br>Primer Apellido: 
+			<input type="text" name="apellido" pattern="[a-zA-Z]*" size="10" required/>
+			Segundo Apellido: 
+			<input type="text" name="apellido" pattern="[a-zA-Z]*" size="10" required/><br><br />
+			Primer Nombre: 
+			<input type="text" name="nombre" pattern="[a-zA-Z]*" size="10" required/>
+			Segundo Nombre: 
+			<input type="text" name="nombre" pattern="[a-zA-Z]*" size="10" required/><br><br />
+			Tipo De Sangre:
+			<input type="text" pattern="[A-B-O-AB]" name="sangre" size="3" placeholder="A , B , O" required/>
+			RH: 
+			<input type="text" pattern="[+--]" name="sangre" size="1" placeholder="+, -" required/>
+			<br><br />
+			Sexo:
+			<br><input type="radio" name="sexo" value="mas" checked required/> Masculino
+			<br>
+			<input type="radio" name="sexo" value="fem" required/> Femenino
+			<br><br>Fecha De Nacimiento:
+			<input type="date" name="bdaytime" required/>
+			<br><br>Edad (Mayor a 18 Años):
+			<input type="number" name="quantity" min="18" max="120" required/>
+			<br><br>E-mail:
+			<input type="text" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" placeholder="name@hotmail.com" required/>
+			<br><br>Telefono:
+			<input type="tel" pattern="[0-9]{10}" placeholder="Ej: 313 470 0336" required/>
+			<br><br>Tipo de Documento: 
+			<select name="tipodedocumento" required/> 
+			<option>Seleccione...</option> 
+			<option>Cédula</option> 
+			<option>Pasaporte</option> 
+			</select> 
+			<br><br /> 
+			C.C/Pasaporte: 
+			<input type="number" name="c.i" size="20" required/><br><br /> 
+			País: 
+			<select name="país" required/> 
+			<option>Seleccione...</option> 
+			<option>Alemania</option> 
+			<option>Argentina</option> 
+			<option>Brasil</option> 
+			<option>Colombia</option> 
+			<option>Ecuador</option> 
+			<option>Estados Unidos</option> 
+			<option>España</option> 
+			<option>Italia</option> 
+			<option>Mexico</option> 
+			<option>Otros...</option> 
+			</select>  
+			<br><br>Ciudad: 
+			<input type="text" name="ciudad" size="10" pattern="[a-zA-Z]*" required/><br><br /> 
+			Imagen:
+			<input type="file" multiple accept='image/*' required/> 
+			<br><br>
+			<strong><input type="reset" value="Borrar Información"></strong>
+			<form method="get" action="./index.html">
+			<strong><input type="submit" name="Enviar Formulario" value="Enviar Formulario"/></strong>
+			</form>
+		</form>
+
+	<form method="post" action="./index.html">
+		<a href="./index.html"><strong><input type="button" name="Volver a la Pagina Principal" value="Volver a la Pagina Principal"/></strong></a>
+	</form>
+	<div id="footer"><footer><b>Music Entertaiment CUN, Derechos Reservados 2015, Bogotá, Idea y Concepto: Steven Castro</b></footer></div>	
+	</body>
+</html>

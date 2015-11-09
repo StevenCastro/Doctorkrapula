@@ -1,0 +1,285 @@
+body{
+	background: url(./images./fondo.jpg);
+}
+h3{
+	color: #FE9A2E;
+
+}
+h1{
+	color: #00FF00;
+}
+h2{
+	color: #FE9A2E;
+}
+#letra{
+	color: #FE9A2E;
+}
+#reseña{
+	text-align: left;
+}
+#gol{
+	text-align: center;
+	float: center;
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	padding: 1em;
+}
+
+input[type=button]{
+			padding: 1em;
+			border-radius: 6px;
+			background: #00FF00;
+			font-family: Arial Black;
+			font-size: 15px;
+			color: #0000FF;
+			margin-top: 1em;
+			margin-right: 0.5em;
+			float: left;
+		}
+input[type=button]:hover{
+			background: #FF8C00;
+			cursor: pointer;
+		}
+a{
+	text-align: Center;
+	font-size: 20px;
+	color: #00FF00;
+}
+#imagen{
+	float:right;
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+}
+#imagen1{
+	border: 5px solid #FE9A2E;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #00FF00;
+	font-family: Times;
+	font-size: 40px;
+}
+#imagen2{
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #FE9A2E;
+	font-family: Times;
+	font-size: 40px;
+}
+#imagen3{
+	border: 5px solid #FE9A2E;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #00FF00;
+	font-family: Times;
+	font-size: 40px;
+}
+#imagen4{
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #FE9A2E;
+	font-family: Times;
+	font-size: 40px;
+}
+#imagen5{
+	border: 5px solid #FE9A2E;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #00FF00;
+	font-family: Times;
+	font-size: 40px;
+}
+#historia{
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #FE9A2E;
+	font-family: Times;
+	font-size: 25px;
+}
+#footer {
+	float: right;
+	color: #00FF00;
+	font-family: Times;
+	font-size: 16px;
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+}
+#pack{
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #FE9A2E;
+	font-family: Times;
+	font-size: 25px;
+}
+.CSSTableGenerator {
+	margin:0px;padding:0px;
+	width:50%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:18px;
+	-webkit-border-bottom-left-radius:18px;
+	border-bottom-left-radius:18px;
+	
+	-moz-border-radius-bottomright:18px;
+	-webkit-border-bottom-right-radius:18px;
+	border-bottom-right-radius:18px;
+	
+	-moz-border-radius-topright:18px;
+	-webkit-border-top-right-radius:18px;
+	border-top-right-radius:18px;
+	
+	-moz-border-radius-topleft:18px;
+	-webkit-border-top-left-radius:18px;
+	border-top-left-radius:18px;
+}.CSSTableGenerator table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.CSSTableGenerator tr:last-child td:last-child {
+	-moz-border-radius-bottomright:18px;
+	-webkit-border-bottom-right-radius:18px;
+	border-bottom-right-radius:18px;
+}
+.CSSTableGenerator table tr:first-child td:first-child {
+	-moz-border-radius-topleft:18px;
+	-webkit-border-top-left-radius:18px;
+	border-top-left-radius:18px;
+}
+.CSSTableGenerator table tr:first-child td:last-child {
+	-moz-border-radius-topright:18px;
+	-webkit-border-top-right-radius:18px;
+	border-top-right-radius:18px;
+}.CSSTableGenerator tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:18px;
+	-webkit-border-bottom-left-radius:18px;
+	border-bottom-left-radius:18px;
+}.CSSTableGenerator tr:hover td{
+	
+}
+.CSSTableGenerator tr:nth-child(odd){ background-color:#ffd4aa; }
+.CSSTableGenerator tr:nth-child(even)    { background-color:#ff7f00; }.CSSTableGenerator td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:19px;
+	font-size:21px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	color:#00ff00;
+}.CSSTableGenerator tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.CSSTableGenerator tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.CSSTableGenerator tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.CSSTableGenerator tr:first-child td{
+		background:-o-linear-gradient(bottom, #2ef407 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2ef407), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #2ef407 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#2ef407", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#2ef407,bf5f00);
+
+	background-color:#2ef407;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:22px;
+	font-family:Times New Roman;
+	font-weight:bold;
+	color:#0000FF;
+}
+.CSSTableGenerator tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #2ef407 5%, #bf5f00 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2ef407), color-stop(1, #bf5f00) );
+	background:-moz-linear-gradient( center top, #2ef407 5%, #bf5f00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#2ef407", endColorstr="#bf5f00");	background: -o-linear-gradient(top,#2ef407,bf5f00);
+
+	background-color:#2ef407;
+}
+.CSSTableGenerator tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.CSSTableGenerator tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+p{
+	color: #00FF00;
+	font-family: Times;
+	font-size: 20px;
+}
+input:invalid {
+ 
+border: 1px solid red;
+ 
+}
+
+input:valid {
+ 
+border: 1px solid green;
+ 
+}
+#variable{
+	border: 5px solid #00FF00;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	padding: 1em;
+	color: #FE9A2E;
+	font-family: Times;
+	font-size: 20px;
+}
+#dk{
+	border: 5px solid #FE9A2E;
+	border-radius: 6px;
+	background-color: #E6E6E6;
+	color: #00FF00;
+	font-family: Times;
+	font-size: 40px;
+	float: right;
+}
+input[type=submit]{
+			padding: 1em;
+			border-radius: 6px;
+			background: #00FF00;
+			font-family: Arial Black;
+			font-size: 15px;
+			color: #0000FF;
+			margin-top: 1em;
+			margin-right: 0.5em;
+			float: center;
+		}
+input[type=submit]:hover{
+			background: #FF8C00;
+			cursor: pointer;
+		}
+input[type=reset]{
+			padding: 1em;
+			border-radius: 6px;
+			background: #00FF00;
+			font-family: Arial Black;
+			font-size: 15px;
+			color: #0000FF;
+			margin-top: 1em;
+			margin-right: 0.5em;
+			float: center;
+		}
+input[type=reset]:hover{
+			background: #FF8C00;
+			cursor: pointer;
+		}
+

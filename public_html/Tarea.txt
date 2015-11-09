@@ -1,0 +1,7 @@
+1.  Cinco nuevos Inputs
+2. Tipo De Sangre Y el + o -. 
+3. Ingresar Input="file" Imagen
+4. Selector de Genero (Masculino- Femenino)
+5. Input Permitir ingresar numeros. 
+
+Plazo Maximo: Martes 27 de Octubre a Las 11:59 pm
